@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RechteRadar</title>
+    <meta
+      name="description"
+      content="RechteRadar überwacht kollektive Verbraucherklagen in Deutschland und informiert über relevante Fristen."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#top">RechteRadar</a>
+        <nav class="lang-toggle" aria-label="Language selection">
+          <button type="button" class="lang-btn is-active" data-lang="de">DE</button>
+          <span aria-hidden="true">|</span>
+          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="hero-eyebrow" data-i18n="hero.eyebrow"></p>
+            <h1 data-i18n="hero.title"></h1>
+            <p class="lead" data-i18n="hero.subtitle"></p>
+            <div class="hero-actions">
+              <button
+                class="btn btn-primary"
+                type="button"
+                data-scroll-target="#signup"
+                data-log="CTA clicked: hero"
+                data-i18n="hero.primaryCta"
+              ></button>
+              <button
+                class="btn btn-text"
+                type="button"
+                data-scroll-target="#audience-association"
+                data-i18n="hero.secondaryCta"
+              ></button>
+            </div>
+            <ul class="trust-pills" aria-label="Trust signals">
+              <li data-i18n="hero.pill1"></li>
+              <li data-i18n="hero.pill2"></li>
+              <li data-i18n="hero.pill3"></li>
+            </ul>
+            <p class="hero-note" data-i18n="hero.note"></p>
+          </div>
+          <aside class="dashboard-mockup card" aria-label="Product preview">
+            <div class="mockup-head">
+              <p class="mockup-title" data-i18n="mockup.panelTitle"></p>
+              <span class="mockup-live" data-i18n="mockup.liveTag"></span>
+            </div>
+            <p class="mockup-window" data-i18n="mockup.windowLabel"></p>
+            <div class="mock-top">
+              <div class="metric">
+                <p class="mock-label" data-i18n="mockup.activeCases"></p>
+                <p class="mock-value">24</p>
+              </div>
+              <div class="metric">
+                <p class="mock-label" data-i18n="mockup.deadlinesSoon"></p>
+                <p class="mock-value urgency">5</p>
+              </div>
+            </div>
+            <div class="mock-table">
+              <div class="mock-row mock-head">
+                <span data-i18n="mockup.tableCase"></span>
+                <span data-i18n="mockup.tableStatus"></span>
+                <span data-i18n="mockup.tableDeadline"></span>
+              </div>
+              <div class="mock-row">
+                <span data-i18n="mockup.case1"></span>
+                <span data-i18n="mockup.statusOpen"></span>
+                <span>12.05</span>
+              </div>
+              <div class="mock-row">
+                <span data-i18n="mockup.case2"></span>
+                <span data-i18n="mockup.statusReview"></span>
+                <span>25.05</span>
+              </div>
+              <div class="mock-row">
+                <span data-i18n="mockup.case3"></span>
+                <span data-i18n="mockup.statusOpen"></span>
+                <span>09.06</span>
+              </div>
+            </div>
+            <div class="timeline">
+              <p class="timeline-title" data-i18n="mockup.timelineTitle"></p>
+              <ul class="timeline-list">
+                <li data-i18n="mockup.timeline1"></li>
+                <li data-i18n="mockup.timeline2"></li>
+                <li data-i18n="mockup.timeline3"></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container problem-grid">
+          <div>
+            <p class="section-kicker" data-i18n="problem.kicker"></p>
+            <h2 data-i18n="problem.title"></h2>
+            <ul class="bullet-list">
+              <li data-i18n="problem.bullet1"></li>
+              <li data-i18n="problem.bullet2"></li>
+              <li data-i18n="problem.bullet3"></li>
+              <li data-i18n="problem.bullet4"></li>
+            </ul>
+          </div>
+          <article class="stat-card card">
+            <p class="stat-value" data-i18n="problem.statValue"></p>
+            <p data-i18n="problem.statText"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <p class="section-kicker" data-i18n="solution.kicker"></p>
+          <h2 data-i18n="solution.title"></h2>
+          <div class="steps-grid">
+            <article class="step-card card">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M10 4a6 6 0 1 0 3.87 10.58l4.27 4.27 1.41-1.41-4.27-4.27A6 6 0 0 0 10 4Zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+                </svg>
+              </span>
+              <h3 data-i18n="solution.step1.title"></h3>
+              <p data-i18n="solution.step1.text"></p>
+            </article>
+            <article class="step-card card">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M3 5h18v2H3V5Zm2 4h14v10H5V9Zm4 2v2h6v-2H9Zm0 4v2h4v-2H9Z"></path>
+                </svg>
+              </span>
+              <h3 data-i18n="solution.step2.title"></h3>
+              <p data-i18n="solution.step2.text"></p>
+            </article>
+            <article class="step-card card">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M6 2h9l5 5v15H6V2Zm8 1.5V8h4.5L14 3.5ZM8 10h8v2H8v-2Zm0 4h8v2H8v-2Zm0 4h6v2H8v-2Z"></path>
+                </svg>
+              </span>
+              <h3 data-i18n="solution.step3.title"></h3>
+              <p data-i18n="solution.step3.text"></p>
+            </article>
+            <article class="step-card card">
+              <span class="icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 1a11 11 0 1 0 11 11A11 11 0 0 0 12 1Zm1 6v6.17l3.6 2.08-1 1.73L11 14V7h2Z"></path>
+                </svg>
+              </span>
+              <h3 data-i18n="solution.step4.title"></h3>
+              <p data-i18n="solution.step4.text"></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <p class="section-kicker" data-i18n="audience.kicker"></p>
+          <div class="audience-grid">
+            <article class="audience-card card" id="audience-consumer">
+              <h2 data-i18n="audience.consumer.title"></h2>
+              <ul class="bullet-list">
+                <li data-i18n="audience.consumer.bullet1"></li>
+                <li data-i18n="audience.consumer.bullet2"></li>
+                <li data-i18n="audience.consumer.bullet3"></li>
+                <li data-i18n="audience.consumer.bullet4"></li>
+              </ul>
+              <button
+                class="btn btn-secondary"
+                type="button"
+                data-scroll-target="#signup"
+                data-log="CTA clicked: consumer"
+                data-i18n="audience.consumer.cta"
+              ></button>
+            </article>
+            <article class="audience-card card" id="audience-association">
+              <h2 data-i18n="audience.association.title"></h2>
+              <ul class="bullet-list">
+                <li data-i18n="audience.association.bullet1"></li>
+                <li data-i18n="audience.association.bullet2"></li>
+                <li data-i18n="audience.association.bullet3"></li>
+                <li data-i18n="audience.association.bullet4"></li>
+              </ul>
+              <button
+                class="btn btn-secondary"
+                type="button"
+                data-scroll-target="#signup"
+                data-log="CTA clicked: association"
+                data-i18n="audience.association.cta"
+              ></button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="signup">
+        <div class="container narrow">
+          <article class="card signup-card">
+            <h2 data-i18n="signup.title"></h2>
+            <p class="signup-subtitle" data-i18n="signup.subtitle"></p>
+            <form id="signup-form" novalidate>
+              <label for="email" data-i18n="signup.emailLabel"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+                data-i18n-placeholder="signup.emailPlaceholder"
+              />
+              <label class="checkbox-row" for="prior-participation">
+                <input type="checkbox" id="prior-participation" name="priorParticipation" />
+                <span data-i18n="signup.checkbox"></span>
+              </label>
+              <button class="btn btn-primary" type="submit" data-i18n="signup.submit"></button>
+              <p id="form-message" role="status" aria-live="polite"></p>
+            </form>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container narrow">
+          <p class="section-kicker" data-i18n="faq.kicker"></p>
+          <h2 data-i18n="faq.title"></h2>
+          <div class="faq-list">
+            <article class="faq-item card">
+              <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-1">
+                <span data-i18n="faq.q1"></span>
+              </button>
+              <div class="faq-answer" id="faq-1">
+                <p data-i18n="faq.a1"></p>
+              </div>
+            </article>
+            <article class="faq-item card">
+              <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-2">
+                <span data-i18n="faq.q2"></span>
+              </button>
+              <div class="faq-answer" id="faq-2">
+                <p data-i18n="faq.a2"></p>
+              </div>
+            </article>
+            <article class="faq-item card">
+              <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-3">
+                <span data-i18n="faq.q3"></span>
+              </button>
+              <div class="faq-answer" id="faq-3">
+                <p data-i18n="faq.a3"></p>
+              </div>
+            </article>
+            <article class="faq-item card">
+              <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-4">
+                <span data-i18n="faq.q4"></span>
+              </button>
+              <div class="faq-answer" id="faq-4">
+                <p data-i18n="faq.a4"></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container narrow">
+          <article class="final-cta card">
+            <h2 data-i18n="finalCta.title"></h2>
+            <p data-i18n="finalCta.text"></p>
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-scroll-target="#signup"
+              data-log="CTA clicked: final"
+              data-i18n="finalCta.button"
+            ></button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p data-i18n="footer.disclaimer"></p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
